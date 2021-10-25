@@ -1,4 +1,5 @@
-!DOCTYPE html>
+<!DOCTYPE html>
+
 <html>
 	<head>
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -40,8 +41,23 @@
 		 <li>Women</li>
 		</ol>
         <form action="https://www.freecatphotoapp.com/submit-cat-photo"></form>
-		 <input type="text" placeholder="ives photo">
+		 <label>
+			 <input id="indoor" type="radio" name="indoor-outdoor" value="indoor" checked>indoor
+		 </label>
+		 <label>
+			<input id="outdoor" type="radio" name="indoor-outdoor">outdoor
+		</label>
+		<label>
+			<input id="loving" type="checkbox" name="personality">loving
+		</label>
+		<label>
+			<input id="smart" type="checkbox" name="personality">smart
+		</label>
+		<label>
+			<input id="energetic" type="checkbox" name="personality">energetic
+		</label>
+		 <input type="text" placeholder="ives photo" required>
+		 <button type="submit">Submit</button>
 	    </form> 
-		<button type="submit">Submit</button>
 	</body>
 </html>
