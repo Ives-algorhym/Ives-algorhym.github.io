@@ -1,0 +1,29 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+}
+h1, h2 {
+    color: #007e7e;
+  }
+  h1 {
+    border-bottom: 1px solid black;
+    font-size: 150%;
+    
+  }
+  h2 {
+    font-size: 130%;
+  }
+  p { 
+    color: maroon;
+  }
+
+  
+  p.raspberry {
+    color: purple;
+}
+p.blueberry {
+    color: blue;
+} 
+p.greantea {
+    color: green;
+}
